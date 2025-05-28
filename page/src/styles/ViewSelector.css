@@ -23,10 +23,20 @@
   border-left: 0;
 }
 
+.view-type-selector .view-selector svg {
+  width: 42px;
+  height: 42px;
+}
+
 @media (max-width: 768px) {
   .view-type-selector {
     position: static; /* Remove absolute positioning */
     right: auto; /* Reset right positioning */
     margin-top: 0.5rem; /* Add some top margin for spacing */
+  }
+
+  .view-type-selector .view-selector svg {
+    width: 56px;
+    height: 56px;
   }
 }
